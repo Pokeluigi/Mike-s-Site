@@ -5,7 +5,7 @@
     background-color: #FFD29D;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
-    padding: 25px
+    padding: 16px
 }
 h1 {
     color:midnightblue;
@@ -27,5 +27,16 @@ h3 {
     text-align: center;
     color:blueviolet ;
     font-size: 16px;
-}
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background: blueviolet;
+    
 
+}
+.nav_bar {
+display: flex;
+flex-flow: coloumn wrap;
+justify-content: right ;
+background-color: purple;
+}
